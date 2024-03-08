@@ -1,0 +1,174 @@
+html {
+    font-family: sans-serif;
+  }
+
+  table {
+    border-collapse: collapse;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+  }
+
+  body {
+    background-color: rgb(183, 234, 250);
+  }
+
+  #mainDiv{
+    width: 900px;
+    padding: 50px;
+    margin: 0 auto;
+    margin-top: auto;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: rgb(231, 249, 255);
+  }
+
+  #mainDiv{
+    border:outset 3px rgb(139, 224, 250);
+  }
+  /*
+  body {
+    border: 4px solid yellow;
+  }
+  html {
+    border: 4px solid green;
+  }
+*/
+  #titleDiv{
+    display:flex;
+    justify-content: center;
+  }
+
+  #row{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  #A {
+    width: 1;
+  }
+
+  #A1{
+    width: 1;
+  }
+
+  #B{
+    width: 146px;
+  }
+
+  #C{
+    width: 1;
+  }
+/*
+  #row{
+    border: 4px solid rgb(183, 234, 250);
+  }
+
+  #A {
+    border: 4px solid rgb(0, 0, 0);
+  }
+
+  #B{
+    border: 4px solid rgb(0, 0, 0);
+  }
+
+  #C{
+    border: 4px solid rgb(0, 0, 0);
+  }
+*/
+  canvas{
+    width: 700px;
+    height: 700px;
+    text-align:center;
+    border: 3px solid  green;
+    background-color: aqua;
+  }
+
+  td, th {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 7px 10px;
+  }
+
+  input {
+    background-color: rgb(217, 243, 251);
+  }
+
+
+  .button{
+    height: 38px;
+    width: 120px;  
+    background-color: rgb(105, 155, 255);
+  }
+
+.evidenzia {
+    height: 15px;
+    width: 15px;
+}
+
+  .outTable td, th {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px 15px;
+  }
+  
+  td {
+    text-align: center;
+  }
+
+  .buttonTb td {
+    border-bottom: solid ;
+  }
+
+  .possTableTop td{
+    border-bottom:hidden;
+  }
+
+  .possTableTop tr{
+    border-right:solid;
+    border-left:solid;
+  }
+
+  td:first-child {
+    border-left: 3px solid;
+  }
+
+td:last-child {
+    border-right: 3px solid;
+}
+
+.sudTable td:nth-child(3n) {
+    border-right: 3px solid;
+}
+
+.outTable td:nth-child(3n) {
+    border-right: 3px solid;
+}
+
+tr:first-child {
+    border-top: 3px solid;
+}
+
+tr:last-child {
+    border-bottom: 3px solid;
+}
+
+.sudTable tr:nth-child(3n) td {
+    border-bottom: 3px solid;
+}
+
+.outTable tr:nth-child(3n) td {
+    border-bottom: 3px solid;
+}
+
+.evButton {
+    width: 26px;
+    height: 26px;
+}
+.evCell {
+    width: 26px;
+    height: 26px;
+}
+  
+  caption {
+    padding: 10px;
+  }
